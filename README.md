@@ -4,7 +4,11 @@ This is a set of File templates and Project templates for use with Xcode 5. Thes
 
 Using the Xcode 3 templates here: http://svn.red-bean.com/pyobjc/trunk/pyobjc/pyobjc-xcode/ as a starting point, and also using the existing Xcode 4 templates as a reference, I ported the Xcode 3 templates to the Xcode 4 format.
 
-They seem to work, though I've only used the Cocoa-Python Application for actual development so far.
+Xcode 5 brought some changes to using Python with Xcode, which you can read about here: https://developer.apple.com/library/mac/technotes/tn2328/_index.html
+
+This meant using the Xcode 4 Cocoa-Python templates with Xcode 5 required lots of manual tweaking before you could get a project to build.
+
+These updated templates should eliminate the tweaking, and should just work.
 
 **How to use these**
 
@@ -16,13 +20,13 @@ Launch Xcode 5. The File templates should be available from the template browser
 
 The Project templates should be available when creating a new project, also under Mac OS X/Cocoa-Python.
 
+When creating the project, you can choose to link to Python 2.6 or Python 2.7.  Choose Python 2.6 if you want to build projects that will run under Snow Leopard; Python 2.7 was not available on OS X until Lion shipped.
+
 **Additional references**
 
 http://blog.boreal-kiss.net/2011/03/11/a-minimal-project-template-for-xcode-4/
 
 http://red-glasses.com/index.php/tutorials/making-custom-templates-for-xcode-4-march-2011/
-
-https://developer.apple.com/library/mac/technotes/tn2328/_index.html
 
 https://snipt.net/raw/b216c160f38e9b3c095222607739b21c/?nice
 
